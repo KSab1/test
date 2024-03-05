@@ -1,10 +1,8 @@
 #include <iostream>
-#include "nigga1.h"
+#include "C.h"
 
 int main()
 {
-	std::cout << "nigga"<<std::endl;
-
 	C n;
 
 	n.init(4, 5);
@@ -14,7 +12,7 @@ int main()
 
 	n.add(b);
 
-
+	n.display();
 
 	return 0;
 }
